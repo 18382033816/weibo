@@ -1,2 +1,7 @@
 # weibo
 微博数据抓取（以沪深300为例）
+1、基于flask框架搭建动态cookie池并提供接口，使用redis数据库存放cookie信息
+2、基于scrapy框架爬取数据，使用MongoDB来保存数据
+3、利用tushare接口获取沪深300股指数据
+4、针对数据的清洗，这里采用strftime对时间数据进行清洗
+5、使用logging模块编写监控程序进行爬虫监控
